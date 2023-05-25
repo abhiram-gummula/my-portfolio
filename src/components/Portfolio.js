@@ -47,8 +47,8 @@ const Portfolio = () => {
       id: 6,
       src: project6,
       title: "Food Ordering App",
-      codeLink: "",
-      demoLink: "",
+      codeLink: "https://github.com/abhiram-gummula/food-ordering-app",
+      demoLink: "https://abhiram-gummula.github.io/food-ordering-app/",
     },
   ]
   return (
