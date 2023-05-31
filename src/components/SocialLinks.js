@@ -34,7 +34,7 @@ const SocialLinks = () => {
     child: (
       <>Resume  <BsFillPersonLinesFill size={30}/></>
     ),
-    href: '/ABHIRAM_G_FE.pdf',
+    href: process.env.PUBLIC_URL + '/ABHIRAM_G_FE.pdf',
     style: 'rounded-br-md',
     download: true,
   },
