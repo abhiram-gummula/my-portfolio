@@ -5,6 +5,7 @@ import project3 from "../assets/portfolio/project-3.jpg"
 import project4 from "../assets/portfolio/project-4.jpg"
 import project5 from "../assets/portfolio/project-5.jpg"
 import project6 from "../assets/portfolio/project-6.jpg"
+import project7 from "../assets/portfolio/project-7.jpg"
 
 const Portfolio = () => {
   const portfolios = [
@@ -49,6 +50,13 @@ const Portfolio = () => {
       title: "Food Ordering App",
       codeLink: "https://github.com/abhiram-gummula/food-ordering-app",
       demoLink: "https://abhiram-gummula.github.io/food-ordering-app/",
+    },
+    {
+      id: 7,
+      src: project7,
+      title: "My-Tube App",
+      codeLink: "https://github.com/abhiram-gummula/my-youtube",
+      demoLink: "https://abhiram-gummula.github.io/my-youtube/",
     },
   ]
   return (
